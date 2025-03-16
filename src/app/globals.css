@@ -29,3 +29,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow: visible;
+    height: unset;
+  }
+}
